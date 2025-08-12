@@ -1,12 +1,18 @@
 <body>
-
     <script>
-        var age = 14;
-        var maxAge = 88;
-        var numPerDay = 40;
-
-        var totalRequired = (numPerDay * 365) * (maxAge - age);
-        document.write("You will need " + totalRequired + " potato corner fries to last you until the ripe old age of " + maxAge);
+        let age = window.prompt("Enter an age: ");
+        let maxAge = window.prompt("Enter your max age: ");
+        let numPerDay = window.prompt("Enter the amount of times u eat ur fav snack per day: ");
+        let confirmation = window.confirm(`is ${age} ur actual age, is ${maxAge} ur actual max age, is ${numPerDay} the amount of times u eat ur fav snack a day?`);
+        if(confirmation){
+            var totalRequired = (numPerDay * 365) * (maxAge - age);
+            document.write("You will need ");
+            document.write(totalRequired);
+            document.write(" Jolibee ChickenJoy to last you until the ripe old age of ");
+            document.write(maxAge);
+        }
+        else{
+            console.log("Run the code again.");
+        }
     </script>
-
 </body>
