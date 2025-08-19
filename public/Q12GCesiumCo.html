@@ -2,14 +2,18 @@
 <html>
 <body>
     <h2>Q1 2nd Graded Exercise submitted by Varick Co of 9-Cesium</h2>
-    
+        Meal Price: <input type="text" id="mealPrice" /> <br/>
+        Tip: <input type="text" id="tip" /><br/>
+        Service Charge: <input type="text" id="serviceCharge" /><br/><br/>
+
+        <button onclick="totalMeal()">Accept Input</button>
+        <p>Total Meal: <span id="totalMeal"></span></p>
 
     <script>
         function totalMeal() {
-
-            
+            var totalMeal = document.getElementById("mealPrice").value*1 + document.getElementById("tip").value*1 + (document.getElementById("serviceCharge").value/100 * document.getElementById("mealPrice").value);
+            document.getElementById("totalMeal").innerHTML = totalMeal.toFixed(2); 
         }
-
 
     </script>
 </body>

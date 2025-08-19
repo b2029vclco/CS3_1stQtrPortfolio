@@ -1,0 +1,31 @@
+<body>
+    <script>
+        var year1 = 340;
+        var year2 = 461;
+        var sumYears = year1 + year2;
+        var isLeap = false;
+
+        if (sumYears % 400 == 0)
+        {
+            isLeap = true;
+        }
+        else if (sumYears % 100 == 0)
+        {
+            isLeap = false;
+        }
+        else if (sumYears % 4 == 0)
+        {
+            isLeap = true;
+        }
+    
+
+        if (isLeap)
+        {
+            document.write(sumYears + " is a leap year.");
+        }
+        else
+        {
+            document.write(sumYears + " is not a leap year.");
+        }
+    </script>
+</body>
