@@ -16,7 +16,7 @@
 
     2. Hyperlink - I have slight trouble with hyperlinks. This is because even if I know what these are, which are links to websites that can be represented by images and text, I have a hard time remembering the correct syntax for them. I should try to use them more when I code.
 
-    xternal Source - An external source is when you use other files in your html or javascript file. I haven't exactly used this much. Therefore, the syntax for me is foggy.
+    3. External Source - An external source is when you use other files in your html or javascript file. I haven't exactly used this much. Therefore, the syntax for me is foggy.
 
     4. Data Types - When they tell me to add 5 + "3", I always answer 8. This is wrong. The answer is 53, as the combination of number and string brings a result of 53.
 
